@@ -1,0 +1,42 @@
+body {
+    background-color: #ede0d0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.bodydiv {
+    border: 1px solid black;
+    height: 60vh;
+    width: 80vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    text-align: center;
+}
+
+.storage {
+    height: 50vh; 
+    overflow-y: auto; 
+    margin-left:2vh;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: auto; 
+}
+
+textarea {
+    width: calc(100% - 40px);
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+

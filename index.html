@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message Board</title>
+</head>
+<body>
+    <div class="bodydiv">
+        <h1 class="header">Message Board</h1>
+        <div class="storage" id="MessageList">
+        </div>
+        <form id="MessageBox" class="msginput">
+            <textarea name="message_input" id="MessageInput" cols="30" rows="10" placeholder="type a message"></textarea>
+            <button type="submit">Post</button>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
